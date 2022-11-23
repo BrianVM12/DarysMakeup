@@ -1,0 +1,119 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+body{
+    font-family: 'Monserrat', sans-serif;
+    overflow-x: hidden;
+    font-weight: bold;
+    background-color: #dfdfdf !important;
+}
+
+#menu{
+    background-color: rgba(241, 236, 236, 0.9) !important;
+    width: 100%;
+}
+#menu li > a{
+    font-size: 18px;
+    font-weight: bold;
+    color: #000000;
+}
+
+#logo{
+    max-width: 110px;
+    max-height: 45px;
+    border-radius: 10%;
+}
+
+#slider{
+    max-height: 400px;
+}
+
+#intro{
+    width: 95% !important;
+}
+  
+.wrapper{
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+    width: 90%;
+    margin-left: 15px;
+    padding-top: 15px;
+}
+#iconos a i{
+    margin-left: 25px;
+    width: 1000px !important; 
+}
+.icono-wrap{
+    flex-wrap: wrap;
+    justify-content: center !important;
+}
+.servicio-fila{
+    width: 90% !important;
+    text-align: center;
+}
+
+#imgs{
+    border-radius: 100%;
+
+}
+
+#bs{
+    background-color: rgba(240, 201, 242, 0.3);
+    border-radius: 0px 25px 0px 25px;
+    box-shadow: 2px 2px 7px rgba(0, 0, 0,0.5);
+}
+
+#nosotros{
+    background-color: #FCE4E6;
+    border-radius: 0px 25px 0px 25px;
+    box-shadow: 2px 2px 7px rgba(0, 0, 0,0.5);
+    font-weight: bold;
+    border-radius: 25px;
+    padding: 25px;
+    margin: 15px;
+    
+}
+
+#local{
+    box-shadow: 2px 2px 7px rgba(0, 0, 0,0.5);
+    border-radius: 0px 0px 25px 25px;
+    padding: 4px;
+}
+
+@media (min-width:750px){
+    #sliderpc{  
+        width: 100%;
+        height: 400px;
+
+    }
+    #carouselExampleDark{
+        padding: 45px !important;
+
+    }
+    #nosotros{
+        margin: 80px;
+    }
+    #local{
+        margin: 25px;
+        padding: 54px;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+    }
+    #local img{
+        width: 550px;
+        height: 390px;
+        margin-right: 15px ;
+    }
+    #intro{
+        font-weight: bold;
+        font-size: 18px;
+        width: 25%;
+    }
+
+
+}
+
+/* media 900px 625px */
